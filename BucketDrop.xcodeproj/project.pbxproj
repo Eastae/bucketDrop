@@ -17,6 +17,10 @@
 		53E9EA9425823C6F00CD79B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E9EA9225823C6F00CD79B9 /* LaunchScreen.storyboard */; };
 		53E9EA9F25823C6F00CD79B9 /* BucketDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E9EA9E25823C6F00CD79B9 /* BucketDropTests.swift */; };
 		53E9EAAA25823C6F00CD79B9 /* BucketDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E9EAA925823C6F00CD79B9 /* BucketDropUITests.swift */; };
+		53E9EAB825823D2500CD79B9 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53E9EAB725823D2500CD79B9 /* Rain.sks */; };
+		53E9EAC0258301AA00CD79B9 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E9EABF258301AA00CD79B9 /* drop.png */; };
+		53E9EAC3258301BC00CD79B9 /* bucketE.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E9EAC1258301BB00CD79B9 /* bucketE.png */; };
+		53E9EAC4258301BC00CD79B9 /* bucketF.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E9EAC2258301BC00CD79B9 /* bucketF.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		53E9EAA525823C6F00CD79B9 /* BucketDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E9EAA925823C6F00CD79B9 /* BucketDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketDropUITests.swift; sourceTree = "<group>"; };
 		53E9EAAB25823C6F00CD79B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E9EAB725823D2500CD79B9 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		53E9EABF258301AA00CD79B9 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		53E9EAC1258301BB00CD79B9 /* bucketE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucketE.png; sourceTree = "<group>"; };
+		53E9EAC2258301BC00CD79B9 /* bucketF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucketF.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,10 @@
 		53E9EA8225823C6800CD79B9 /* BucketDrop */ = {
 			isa = PBXGroup;
 			children = (
+				53E9EAB92582B46900CD79B9 /* Assets */,
 				53E9EA8325823C6800CD79B9 /* AppDelegate.swift */,
 				53E9EA8525823C6900CD79B9 /* GameScene.sks */,
+				53E9EAB725823D2500CD79B9 /* Rain.sks */,
 				53E9EA8725823C6900CD79B9 /* Actions.sks */,
 				53E9EA8925823C6900CD79B9 /* GameScene.swift */,
 				53E9EA8B25823C6900CD79B9 /* GameViewController.swift */,
@@ -132,6 +142,24 @@
 				53E9EAAB25823C6F00CD79B9 /* Info.plist */,
 			);
 			path = BucketDropUITests;
+			sourceTree = "<group>";
+		};
+		53E9EAB92582B46900CD79B9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53E9EABA2582B47000CD79B9 /* Sprites */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		53E9EABA2582B47000CD79B9 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				53E9EABF258301AA00CD79B9 /* drop.png */,
+				53E9EAC1258301BB00CD79B9 /* bucketE.png */,
+				53E9EAC2258301BC00CD79B9 /* bucketF.png */,
+			);
+			path = Sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E9EA8F25823C6900CD79B9 /* Main.storyboard in Resources */,
+				53E9EAC4258301BC00CD79B9 /* bucketF.png in Resources */,
+				53E9EAC3258301BC00CD79B9 /* bucketE.png in Resources */,
 				53E9EA8625823C6900CD79B9 /* GameScene.sks in Resources */,
 				53E9EA9125823C6F00CD79B9 /* Assets.xcassets in Resources */,
+				53E9EAC0258301AA00CD79B9 /* drop.png in Resources */,
+				53E9EAB825823D2500CD79B9 /* Rain.sks in Resources */,
 				53E9EA9425823C6F00CD79B9 /* LaunchScreen.storyboard in Resources */,
 				53E9EA8825823C6900CD79B9 /* Actions.sks in Resources */,
 			);
