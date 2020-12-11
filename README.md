@@ -6,23 +6,8 @@ Made my me, Keith Eastman
 
 Wireframe of app view
 
-+------------------------------+
-|          Score: 23           |
-|                              |
-|                              |
-|                              |
-|                 *            |
-|                              |
-|                              |
-|                              |
-|      *                       |
-|                              |
-|             *                |
-|                              |
-|                              |
-|   *                   *      |
-|          \_/                 |
-+------------------------------+
+![wireframe]
+(https://i.imgur.com/ODxrtow.png)
 
 
 Must have features:
