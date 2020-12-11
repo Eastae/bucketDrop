@@ -6,9 +6,7 @@ Made my me, Keith Eastman
 
 Wireframe of app view
 
-![wireframe]
-(https://i.imgur.com/ODxrtow.png)
-
+![wireframe](https://i.imgur.com/ODxrtow.png)
 
 Must have features:
 Object collision
