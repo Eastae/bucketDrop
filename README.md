@@ -12,8 +12,8 @@ Must have features:
 Object collision
 
 Nice to have features:
-scoreboard
-nice animated background
+scoreboard,
+nice animated background,
 title screen
 
 All rights reserved
